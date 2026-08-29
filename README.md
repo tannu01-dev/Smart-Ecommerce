@@ -8,7 +8,7 @@ From **product discovery → cart → Razorpay payment → order tracking → se
 
 ### 🌐 Live Demo
 
-🔗 **[Visit Smart-Ecommerce](https://smart-ecommerce-fawn.vercel.app/)**
+🔗 **[Visit Smart-Ecommerce](https://smart-ecommerce-alpha.vercel.app/)**
 
 🔗 **[Backend API](https://smart-ecommerce-site.onrender.com/)**
 
