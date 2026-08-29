@@ -28,7 +28,7 @@ function Orders() {
       }
 
       const response = await fetch(
-        "https://smart-ecommerce-site.onrender.com/api/api/admin/orders",
+        "https://smart-ecommerce-site.onrender.com/api/admin/orders",
         {
           method: "GET",
 

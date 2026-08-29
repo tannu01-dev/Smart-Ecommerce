@@ -35,7 +35,7 @@ function Reports() {
 
 
             let url =
-                `https://smart-ecommerce-site.onrender.com/api/api/admin/reports?type=${type}`;
+                `https://smart-ecommerce-site.onrender.com/api/admin/reports?type=${type}`;
 
 
             if (from) {

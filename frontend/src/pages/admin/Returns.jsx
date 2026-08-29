@@ -38,7 +38,7 @@ function Returns() {
             }
 
             const response = await fetch(
-                "https://smart-ecommerce-site.onrender.com/api/api/admin/returns",
+                "https://smart-ecommerce-site.onrender.com/api/admin/returns",
                 {
                     method: "GET",
                     headers: {
@@ -118,7 +118,7 @@ function Returns() {
             const token = localStorage.getItem("token");
 
             const response = await fetch(
-                `https://smart-ecommerce-site.onrender.com/api/api/admin/returns/${selectedReturn._id}/approve`,
+                `https://smart-ecommerce-site.onrender.com/api/admin/returns/${selectedReturn._id}/approve`,
                 {
                     method: "PUT",
                     headers: {
@@ -211,7 +211,7 @@ function Returns() {
             const token = localStorage.getItem("token");
 
             const response = await fetch(
-                `https://smart-ecommerce-site.onrender.com/api/api/admin/returns/${selectedReturn._id}/reject`,
+                `https://smart-ecommerce-site.onrender.com/api/admin/returns/${selectedReturn._id}/reject`,
                 {
                     method: "PUT",
 
@@ -303,7 +303,7 @@ function Returns() {
             const token = localStorage.getItem("token");
 
             const response = await fetch(
-                `https://smart-ecommerce-site.onrender.com/api/api/admin/returns/${selectedReturn._id}/refund`,
+                `https://smart-ecommerce-site.onrender.com/api/admin/returns/${selectedReturn._id}/refund`,
                 {
                     method: "PUT",
 

@@ -33,7 +33,7 @@ function Users() {
 
 
       const response = await axios.get(
-        "https://smart-ecommerce-site.onrender.com/api/api/admin/users",
+        "https://smart-ecommerce-site.onrender.com/api/admin/users",
         {
           headers: {
             Authorization: `Bearer ${token}`
@@ -104,8 +104,8 @@ function Users() {
 
 
       const url = user.isBlocked
-        ? `https://smart-ecommerce-site.onrender.com/api/api/admin/users/${user._id}/unblock`
-        : `https://smart-ecommerce-site.onrender.com/api/api/admin/users/${user._id}/block`;
+        ? `https://smart-ecommerce-site.onrender.com/api/admin/users/${user._id}/unblock`
+        : `https://smart-ecommerce-site.onrender.com/api/admin/users/${user._id}/block`;
 
 
       const response = await axios.put(
@@ -179,7 +179,7 @@ function Users() {
 
 
       const response = await axios.delete(
-        `https://smart-ecommerce-site.onrender.com/api/api/admin/users/${user._id}`,
+        `https://smart-ecommerce-site.onrender.com/api/admin/users/${user._id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`

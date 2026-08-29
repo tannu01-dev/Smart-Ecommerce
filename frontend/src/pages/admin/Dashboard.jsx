@@ -49,7 +49,7 @@ function Dashboard() {
 
 
       const response = await axios.get(
-        "https://smart-ecommerce-site.onrender.com/api/api/admin/dashboard",
+        "https://smart-ecommerce-site.onrender.com/api/admin/dashboard",
         {
           headers: {
             Authorization: `Bearer ${token}`
