@@ -31,7 +31,7 @@ function AdminProducts() {
             }
 
             const response = await axios.get(
-                "http://localhost:5000/api/admin/products",
+                "https://smart-ecommerce-site.onrender.com/api/api/admin/products",
                 {
                     headers: {
                         Authorization: `Bearer ${token}`
@@ -107,7 +107,7 @@ function AdminProducts() {
 
             const response = await axios.put(
 
-                `http://localhost:5000/api/admin/products/${productId}/approve`,
+                `https://smart-ecommerce-site.onrender.com/api/api/admin/products/${productId}/approve`,
 
                 {},
 
@@ -187,7 +187,7 @@ function AdminProducts() {
 
             const response = await axios.put(
 
-                `http://localhost:5000/api/admin/products/${productId}/reject`,
+                `https://smart-ecommerce-site.onrender.com/api/api/admin/products/${productId}/reject`,
 
                 {
                     rejectionReason:

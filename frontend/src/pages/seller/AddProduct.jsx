@@ -40,7 +40,7 @@ function AddProduct() {
         }
 
         const response = await axios.get(
-          "http://localhost:5000/api/categories",
+          "https://smart-ecommerce-site.onrender.com/api/api/categories",
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -153,7 +153,7 @@ function AddProduct() {
       );
 
       const response = await axios.post(
-        "http://localhost:5000/api/seller/products",
+        "https://smart-ecommerce-site.onrender.com/api/api/seller/products",
         productData,
         {
           headers: {

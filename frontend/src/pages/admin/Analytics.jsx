@@ -34,7 +34,7 @@ function Analytics() {
       }
 
       const response = await fetch(
-        `http://localhost:5000/api/admin/analytics?period=${period}`,
+        `https://smart-ecommerce-site.onrender.com/api/admin/analytics?period=${period}`,
         {
           method: "GET",
           headers: {

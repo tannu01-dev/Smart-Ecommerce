@@ -25,7 +25,7 @@ function Categories() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://localhost:5000/api/admin/categories",
+        "https://smart-ecommerce-site.onrender.com/api/api/admin/categories",
         {
           headers: {
             Authorization: `Bearer ${token}`
@@ -114,7 +114,7 @@ function Categories() {
       const token = localStorage.getItem("token");
 
       const response = await axios.post(
-        "http://localhost:5000/api/admin/categories",
+        "https://smart-ecommerce-site.onrender.com/api/api/admin/categories",
         {
           name: name.trim(),
           description: description.trim()
@@ -193,7 +193,7 @@ function Categories() {
       const token = localStorage.getItem("token");
 
       const response = await axios.put(
-        `http://localhost:5000/api/admin/categories/${selectedCategory._id}`,
+        `https://smart-ecommerce-site.onrender.com/api/api/admin/categories/${selectedCategory._id}`,
         {
           name: name.trim(),
           description: description.trim()
@@ -271,7 +271,7 @@ function Categories() {
       const token = localStorage.getItem("token");
 
       const response = await axios.delete(
-        `http://localhost:5000/api/admin/categories/${selectedCategory._id}`,
+        `https://smart-ecommerce-site.onrender.com/api/api/admin/categories/${selectedCategory._id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`
